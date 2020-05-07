@@ -1,9 +1,2 @@
-import requests
-import json
-
-print("IN WORK")
-url = 'https://www.cbr-xml-daily.ru/daily_json.js'
-response = requests.get(url)
-data = json.loads(response.text)
-print(response)
-print(data)
+hw = open('HelloWorld.txt')
+print(hw.read())
